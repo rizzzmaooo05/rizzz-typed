@@ -1,0 +1,17 @@
+{
+  "name": "rizzz-typed",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "build": "rollup ./main.js --file ./src/dist/rizzz-typed.js --format cjs",
+    "test" : "rollup ./bp.js --file ./src/dist/test.js --format cjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "rollup": "^4.24.0"
+  }
+}
